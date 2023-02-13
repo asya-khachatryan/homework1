@@ -126,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
 
-        TextView text = (TextView) findViewById(R.id.textView);
         EditText number = (EditText) findViewById(R.id.editTextNumber);
         String s = number.getText().toString();
 
